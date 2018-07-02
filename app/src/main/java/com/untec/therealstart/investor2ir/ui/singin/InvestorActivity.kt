@@ -1,6 +1,5 @@
 package com.untec.therealstart.investor2ir.ui.singin
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import com.untec.therealstart.investor2ir.AppInv
@@ -9,8 +8,9 @@ import com.untec.therealstart.investor2ir.data.db.model.Example
 import io.reactivex.Scheduler
 import io.reactivex.Single
 import io.reactivex.schedulers.Schedulers
+import com.untec.therealstart.investor2ir.config.base.BaseActivity
 
-class InvestorActivity : AppCompatActivity() {
+class InvestorActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,5 +32,8 @@ class InvestorActivity : AppCompatActivity() {
         })
 
 
+        val exampleFragment = InvestorFragment()
+        supportFragmentManager.beginTransaction().add(
+                R.id.fragment, exampleFragment).commit()
     }
 }
