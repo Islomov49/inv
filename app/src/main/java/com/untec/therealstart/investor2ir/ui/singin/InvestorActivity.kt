@@ -8,6 +8,7 @@ import io.reactivex.Single
 import io.reactivex.schedulers.Schedulers
 import com.untec.therealstart.investor2ir.config.base.BaseActivity
 import com.untec.therealstart.investor2ir.data.db.example.ExampleDao
+import com.untec.therealstart.investor2ir.ui.singin.example.InvestorFragment
 import javax.inject.Inject
 
 class InvestorActivity : BaseActivity() {

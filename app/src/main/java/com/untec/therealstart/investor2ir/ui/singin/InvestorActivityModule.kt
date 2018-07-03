@@ -3,6 +3,8 @@ package com.untec.therealstart.investor2ir.ui.singin
 import android.support.v7.app.AppCompatActivity
 import com.untec.therealstart.investor2ir.config.di.scope.PerActivity
 import com.untec.therealstart.investor2ir.config.di.scope.PerFragment
+import com.untec.therealstart.investor2ir.ui.singin.example.InvestorFragment
+import com.untec.therealstart.investor2ir.ui.singin.example.InvestorFragmentModule
 import dagger.Binds
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
@@ -15,6 +17,6 @@ abstract class InvestorActivityModule {
     internal abstract fun provideConsignmentActivity(investorActivity: InvestorActivity): AppCompatActivity
 
     @PerFragment
-    @ContributesAndroidInjector
+    @ContributesAndroidInjector(modules = [(InvestorFragmentModule::class)])
     internal abstract fun contributeInvestorFragment(): InvestorFragment
 }
