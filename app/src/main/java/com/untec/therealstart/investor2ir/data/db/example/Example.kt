@@ -1,4 +1,4 @@
-package com.untec.therealstart.investor2ir.data.db.model
+package com.untec.therealstart.investor2ir.data.db.example
 
 import android.arch.persistence.room.Entity
 import android.arch.persistence.room.PrimaryKey
