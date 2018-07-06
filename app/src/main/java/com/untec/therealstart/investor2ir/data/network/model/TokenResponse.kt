@@ -1,4 +1,4 @@
-package com.untec.therealstart.investor2ir.data.network.oauth2
+package com.untec.therealstart.investor2ir.data.network.model
 
 import com.google.gson.annotations.SerializedName
 

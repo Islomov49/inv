@@ -1,5 +1,6 @@
 package com.untec.therealstart.investor2ir.data.network.oauth2
 
+import com.untec.therealstart.investor2ir.data.network.model.TokenResponse
 import io.reactivex.Single
 import retrofit2.http.*
 

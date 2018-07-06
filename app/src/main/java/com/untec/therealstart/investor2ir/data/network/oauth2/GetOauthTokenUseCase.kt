@@ -1,5 +1,6 @@
 package com.untec.therealstart.investor2ir.data.network.oauth2
 
+import com.untec.therealstart.investor2ir.data.network.model.TokenResponse
 import com.untec.therealstart.investor2ir.data.prefs.PreferenceHelper
 import io.reactivex.schedulers.Schedulers
 import okhttp3.Credentials
