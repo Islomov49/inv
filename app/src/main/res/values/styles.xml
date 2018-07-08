@@ -8,4 +8,15 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="ContentText">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textColor">@color/colorMainText</item>
+        <item name="android:textColorHint">@color/colorSecondaryText</item>
+    </style>
+    
+    <style name="ButtonContent">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
 </resources>
