@@ -36,7 +36,7 @@ class BaseModule {
     @Provides
     @Singleton
     fun provideApiDatabase(oAuth2ApiService: OAuth2ApiService,getOauthTokenUseCase: GetOauthTokenUseCase,retrofit: Retrofit):ApiDatabase =
-            ApiDatabaseImpl(oAuth2ApiService,getOauthTokenUseCase,retrofit)
+            ApiDatabaseImpl(retrofit)
 
 
 }

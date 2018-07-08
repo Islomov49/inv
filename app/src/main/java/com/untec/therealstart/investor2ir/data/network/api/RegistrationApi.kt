@@ -17,7 +17,7 @@ interface RegistrationApi{
             @Field("client_id") clientId: String,
             @Field("client_secret") clientSecret: String,
             @Field("email") email: String
-            ): Single<Response<Void>>
+                ): Single<Void>
 
     @FormUrlEncoded
     @POST("/registrations/tokens")

@@ -10,6 +10,6 @@ interface ExampleContract {
     }
 
     interface View : BaseView {
-        fun loadData()
+
     }
 }

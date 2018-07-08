@@ -11,12 +11,6 @@ import com.untec.therealstart.investor2ir.config.base.BaseFragment
 import javax.inject.Inject
 
 class InvestorFragment: BaseFragment(), ExampleContract.View {
-
-
-    override fun loadData() {
-        Toast.makeText(context, "DEBUG", Toast.LENGTH_SHORT).show()
-    }
-
     @Inject
     lateinit var presenter: ExampleContract.Presenter
 
