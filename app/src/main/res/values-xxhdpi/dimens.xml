@@ -13,7 +13,4 @@
     <dimen name="forty_four_dp">132dp</dimen>
     <dimen name="forty_eight_dp">144dp</dimen>
     <dimen name="fifty_two">156dp</dimen>
-    <dimen name="text_size_small">24sp</dimen>
-    <dimen name="text_size_medium">36sp</dimen>
-    <dimen name="text_size_large">48sp</dimen>
 </resources>

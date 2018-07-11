@@ -2,7 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/eight_dp"
+    android:paddingTop="@dimen/eight_dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -13,8 +15,7 @@
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_arrow_back_black_24dp" />
+            android:layout_height="wrap_content" />
     </LinearLayout>
 
     <LinearLayout
@@ -25,20 +26,26 @@
         android:padding="@dimen/eight_dp">
 
         <ImageView
-
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_arrow_back_black_24dp" />
+            android:layout_height="wrap_content" />
     </LinearLayout>
 
     <TextView
         style="@style/ContentText"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:paddingBottom="@dimen/eight_dp"
-        android:paddingTop="@dimen/eight_dp"
+        android:textColor="@color/colorSecondaryText"
+       android:padding="@dimen/four_dp"
+        android:layout_marginBottom="@dimen/twelve_dp"
         android:text="Lorem ipsum dolor sit amet, propriae atomorum maiestatis pri ad. Mel aperiri moderatius elaboraret in. Ipsum ubique at pro. Ut per phaedrum singulis, unum mediocrem interesset per cu. Pri ea adhuc nobis legere." />
 
+    <Button
+        style="@style/ButtonContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="@dimen/four_dp"
+        android:text="I have an account" />
 
 </LinearLayout>

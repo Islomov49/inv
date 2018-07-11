@@ -16,7 +16,7 @@ class InvestorFragment: BaseFragment(), ExampleContract.View {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         super.onCreateView(inflater, container, savedInstanceState)
-        val view: View = inflater.inflate(R.layout.fragment_example, container,
+        val view: View = inflater.inflate(R.layout.intro_page_layout_with_button, container,
                 false)
         presenter.initData()
         return view
